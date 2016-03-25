@@ -8,7 +8,7 @@ See: https://www.npmjs.com/package/left-pad
 
 * In not_kik namespace. Makes it safer from future lawsuits.
 * Two functions provided, as well as object oriented interface.
-* Portable.
+* Cheaper than http://left-pad.io
 * Not written in JavaScript.
 
 # Usage 
