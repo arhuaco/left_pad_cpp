@@ -41,8 +41,6 @@ Unopinionated C++ version of the popular left_pad
 * Better unit testing with gtest framework.
 * Algorithmic optimizations.
 
-# Support
-
 Please sponsor future developments of the left_pad_cpp library: 191vGngyDnpznFBNaWsKy5FySqwAWEhTBQ.
 
 # License
