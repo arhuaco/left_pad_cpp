@@ -1,6 +1,7 @@
 # left_pad_cpp
 
 Unopinionated C++ version of the popular left_pad
+See: https://www.npmjs.com/package/left-pad
 
 # Features
 
