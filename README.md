@@ -39,6 +39,7 @@ See: https://www.npmjs.com/package/left-pad
 
 # Future work
 
+* Add RightPad.
 * Python bindings.
 * Better unit testing with gtest framework.
 * Algorithmic optimizations.
