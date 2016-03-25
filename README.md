@@ -14,9 +14,12 @@ Unopinionated C++ version of the popular left_pad
     std::cout << not_kik::LeftPad("foo", 5, '+') << std::endl;
     std::cout << not_kik::LeftPad("foo", -1, '+') << std::endl;
 
+
 Outputs:
+
     ++foo
     foo
+
 
     std::string foo("foo");
     not_kik::LeftPad(5, '+', &foo);
@@ -24,6 +27,7 @@ Outputs:
     foo = "foo";
     not_kik::LeftPad(-1, '+', &foo);
     std::cout << foo << std::endl;
+
 
 Outputs:
 
@@ -33,6 +37,7 @@ Outputs:
     not_kik::LeftPadder plus_left_padder('+');
     std::cout << plus_left_padder.Pad("foo", 5) << std::endl;
     std::cout << plus_left_padder.Pad("foo", -2) << std::endl;
+
 
 Outputs:
 
