@@ -1,5 +1,5 @@
 /*
- * Copyright (c) <year>, Nelson Castillo
+ * Copyright (c) 2016, Nelson Castillo
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
