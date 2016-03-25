@@ -47,4 +47,4 @@ Please sponsor future developments of the left_pad_cpp library: 191vGngyDnpznFBN
 
 # License
 
-Commercial license is available, in case you don't like the advertising BSD license.
+In case you don't like the advertising BSD license, a Commercial license is available.
