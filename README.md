@@ -49,3 +49,8 @@ Please sponsor future developments of the left_pad_cpp library: 191vGngyDnpznFBN
 # License
 
 In case you don't like the advertising BSD license, a commercial license is available.
+
+# In other languages
+
+* https://github.com/absurdhero/left-pad-java
+
