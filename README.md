@@ -10,6 +10,7 @@ See: https://www.npmjs.com/package/left-pad
 * Two functions provided, as well as object oriented interface.
 * Cheaper than http://left-pad.io
 * Not written in JavaScript.
+* Peer reviewed.
 
 # Usage 
 
