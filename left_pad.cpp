@@ -29,21 +29,23 @@
 
 #include "./left_pad.h"
 
+#include <algorithm>
 #include <string>
+
+static int HowMany(const std::string &str, int desired_length) {
+  return std::max(desired_length - static_cast<int>(str.size()), 0);
+}
 
 namespace not_kik {
 
 std::string LeftPad(const std::string &str, int desired_length, char ch) {
-  std::string padded;
-  for (int i = 0; i < desired_length - static_cast<int>(str.size()); ++i) {
-    padded += ch;
-  }
+  std::string padded(HowMany(str, desired_length), ch);
   padded += str;
   return padded;
 }
 
 void LeftPad(int desired_length, char ch, std::string *str) {
-  int to_prepend = desired_length - str->size();
+  int to_prepend = HowMany(*str, desired_length);
   if (to_prepend > 0) {
     str->insert(str->begin(), to_prepend, ch);
   }
