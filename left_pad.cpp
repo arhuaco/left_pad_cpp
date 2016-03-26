@@ -40,7 +40,7 @@ namespace not_kik {
 
 std::string LeftPad(const std::string &str, int desired_length, char ch) {
   std::string padded(HowMany(str, desired_length), ch);
-  padded += str;
+  padded.append(str);
   return padded;
 }
 

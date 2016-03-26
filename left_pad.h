@@ -55,7 +55,7 @@ class LeftPadder {
     return LeftPad(str, desired_length, ch_);
   }
 
-  // Pad str with the desired length. Inline version.
+  // Pad str with the desired length. In-place version.
   void Pad(int desired_length, std::string *str) {
     return LeftPad(desired_length, ch_, str);
   }
