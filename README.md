@@ -53,6 +53,8 @@ In case you don't like the advertising BSD license, a commercial license is avai
 
 # In other languages
 
-* https://github.com/absurdhero/left-pad-java
-* https://pypi.python.org/pypi/left-pad
+* Go: https://github.com/keltia/leftpad
+* Java: https://github.com/absurdhero/left-pad-java
+* Python: https://pypi.python.org/pypi/left-pad
+* Service: https://github.com/keltia/leftpad
 
