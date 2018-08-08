@@ -45,8 +45,6 @@ See: https://www.npmjs.com/package/left-pad
 * Better unit testing with gtest framework.
 * Algorithmic optimizations.
 
-Please sponsor future developments of the left_pad_cpp library: 191vGngyDnpznFBNaWsKy5FySqwAWEhTBQ.
-
 # License
 
 In case you don't like the advertising BSD license, a commercial license is available.
